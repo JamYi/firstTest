@@ -15,7 +15,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UIPopoverPresentation
 	
     // MARK: - Main Setup & View Controller methods
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad();
 
         Setting.registerDefaults()
         setupScene()
